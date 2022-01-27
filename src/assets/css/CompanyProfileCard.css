@@ -1,0 +1,35 @@
+:root {
+	--background: #eaeaea;
+	--text-color: #9b9c9d;
+	--iandc-background: #f8f9fb;
+	--btn-background: #707070;
+	--btn-hover: #000;
+	--nav-link: #c4c4c4;
+}
+
+.CompanyProfileCard{
+    width: 26rem;
+    background-color: transparent;
+    border:none;
+    color: var(--background);
+    text-align: center;
+    font-size: 12px;
+}
+
+.CompanyProfileCardImg{
+    background-color: var(--background);
+    border-radius: 50%;
+    height: 150px;
+    width: 150px;
+}
+
+@media screen and (max-width:720px) {
+    .truncate {
+        width:80px;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+      }
+    
+}
+

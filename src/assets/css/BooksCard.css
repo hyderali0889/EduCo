@@ -1,0 +1,28 @@
+:root {
+	--background: #eaeaea;
+	--text-color: #9b9c9d;
+	--iandc-background: #f8f9fb;
+	--btn-background: #707070;
+	--btn-hover: #000;
+	--nav-link: #c4c4c4;
+}
+
+.cuttedText{
+    text-decoration: line-through;
+}
+
+.heartHover:hover{
+  
+    cursor: pointer;
+}
+
+
+.NavCardImg{
+    background-color: var(--nav-link) ;
+    height: 50px;
+    width: 50px;
+    position: relative;
+    bottom: -130px;
+    left: 14px;
+    border-radius: 12px;
+}

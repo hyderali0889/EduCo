@@ -1,0 +1,92 @@
+.settingnav{
+    display: flex;
+    justify-content: space-between !important;
+    
+}
+input[type=text] {
+    width: 4%;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    background-color: white;
+    background-image: url('../images/icons/search.png');
+    outline: none;
+
+    background-position: 10px 10px; 
+    background-repeat: no-repeat;
+    padding: 7px 20px 5px 10px;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+  }
+  
+  input[type=text]:focus {
+    padding-left: 30px;
+    width: 20%;
+  }
+  .links{
+    text-decoration: none !important;
+  }
+
+  .marginClass{
+    position: absolute ;
+   right: 50px;
+   z-index: 9999;
+  }
+
+  .blue{
+    width: 150px;
+    background-color: rgba(201, 196, 196, 1);
+    border-radius: 10px;
+    transition: all 0.8s ease;
+  }
+
+  .heightFull{
+    height:150px;
+    padding: 10px;
+box-shadow: 2px 2px 10px grey;
+
+
+
+  }
+  .heightnone{
+    height: 0px;
+    
+  }
+
+  li{
+    list-style:none ;
+  }
+
+  .displaynone{
+    display: none;
+  }
+  .workingDiv{
+    border-bottom: 1px solid grey;
+    padding-bottom: 10px;
+    
+  }
+
+  .working{
+    display: flex;
+    flex-direction: column;
+  }
+
+  .imgNavDown{
+    background-color: darkgray;
+    height: 30px;
+    width: 30px;
+   border-radius: 50%;
+  }
+  .font{
+    font-size: 13px;
+  }
+
+
+  @media screen and (max-width: 1000px) {
+    .blue{
+      display: none;
+    }
+    
+  }
+
+  

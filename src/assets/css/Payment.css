@@ -1,0 +1,27 @@
+:root{
+    --background: #eaeaea;
+    --text-color:#9b9c9d;
+    --iandc-background: #f8f9fb;
+    --btn-background: #707070;
+    --btn-hover: #000;
+    --nav-link: #c4c4c4;
+  }
+
+
+  .PaymentVisa{
+      background-color:var(--nav-link) ;
+      padding: 20px;
+      border-radius: 14px;
+      transition: all 0.4s ease;
+  }
+
+  .PaymentVisa:hover{
+
+      border: 1px solid var(--btn-background);
+      box-shadow: 2px 2px 10px grey;
+  }
+
+  .borde{
+      padding:05px;
+      border-radius: 5px;
+  }

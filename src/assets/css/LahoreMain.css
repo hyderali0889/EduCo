@@ -1,0 +1,53 @@
+:root{
+    --background: #eaeaea;
+    --text-color:#9b9c9d;
+    --iandc-background: #f8f9fb;
+    --btn-background: #707070;
+    --btn-hover: #000;
+    --nav-link: #c4c4c4;
+  }
+
+  .librariesMain2{
+      height: 450px;
+      background-color: var(--nav-link);
+      overflow-y: auto;
+      border-radius: 14px;
+  }
+
+  .librariesMain2::-webkit-scrollbar{
+      display: none;
+  }
+
+
+.ColImg2{
+    background-color:var(--btn-background) ;
+    border-radius: 14px;
+    height: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.buttonWrapper{
+    z-index: 999;
+    border-radius: 12px;
+}
+
+
+.textLahore{
+    color: var(--btn-background);
+}
+.textLahore2{
+    color: var(--btn-background);
+    font-weight: 300;
+}
+
+.links{
+    text-decoration: none;
+    color:var(--btn-background)
+}
+
+.borderLeft{
+    border-right: 1px solid black;
+}

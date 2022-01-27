@@ -1,0 +1,18 @@
+.date{
+    border: 2px solid #707070;
+    border-radius: 12px;
+
+
+}
+.border{
+    border: 1px solid #000;
+}
+.overflow{
+    height: 490px;
+    width: 100%;
+    padding: 0 20px;
+    overflow-y: auto;
+}
+.overflow::-webkit-scrollbar{
+    display: none;
+}

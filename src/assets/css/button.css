@@ -1,0 +1,56 @@
+:root{
+    --background: #eaeaea;
+    --text-color:#9b9c9d;
+    --iandc-background: #f8f9fb;
+    --btn-background: #707070;
+    --btn-hover: #000;
+    --nav-link: #c4c4c4;
+  }
+.border{
+    border-radius: 12px;
+}
+.button{
+    background-color: grey;
+    border-radius: 5px;
+    padding: 7px;
+    border:none;
+    font-size: 12px;
+}
+
+.button:hover{
+    background-color: rgb(80, 67, 67);
+
+}
+.backgroundColor{
+    background: #f8f9fb;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card-img-top{
+    width: 50% !important;
+}
+
+.hover:hover{
+box-shadow: 2px 2px 10px grey;
+transform: translateY(-10px);
+}
+.hover{
+    transition: all 0.4s ease;
+}
+a{
+    text-decoration: none !important;
+    color: var(--btn-background) !important;
+
+}
+
+a:hover{
+    color: var(--btn-hover) !important;
+}
+.decorationnone{
+    text-decoration: none;
+}
+
+.img4{
+    height: 46%;
+}

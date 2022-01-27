@@ -1,0 +1,42 @@
+.cityMiniCardBoundary{
+    box-sizing: border-box;
+    border: 1px solid #707070;
+    border-radius: 12px;
+    background: #F8F9FB;
+}
+.cityMiniCardBoundary:hover{
+    box-shadow: 1px 1px 6px;
+
+}
+.img-setting{
+    background: #D9D7D7;
+    border-radius: 12px;
+
+}
+.img-setting img{
+    width: 90%;
+}
+.icons-setting i{
+    background: #707070;
+    color: #fff;
+    padding: 8px;
+    border-radius: 5px;
+    margin-right: 5px;
+}
+.middle-line i{
+    color: #FFCB00;
+}
+
+
+
+.city-height{
+    height: 400px;
+    overflow: scroll;
+}
+.city-height::-webkit-scrollbar{
+    display: none;
+}
+.card-header{
+    background: none !important;
+    border: none !important;
+}

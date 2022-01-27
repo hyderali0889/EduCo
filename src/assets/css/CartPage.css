@@ -1,0 +1,99 @@
+:root {
+	--background: #eaeaea;
+	--text-color: #9b9c9d;
+	--iandc-background: #f8f9fb;
+	--btn-background: #707070;
+	--btn-hover: #000;
+	--nav-link: #c4c4c4;
+}
+
+.mainCircles{
+    display: flex;
+    justify-content: center;
+}
+
+
+.circle{
+    border: 4px solid var(--btn-background);
+    border-radius: 50%;
+
+}
+
+.CartSummary{
+	background-color: var(--background);
+    box-shadow: 0px 2px 10px grey;
+	border-radius: 14px;
+}
+.mainFx{
+	display: flex;
+}
+
+.Fx1{
+	flex: 50%;
+}
+.Fx2{
+	flex: 30%;
+}
+
+
+.button {
+	background-color: var(--btn-background);
+	border-radius: 5px;
+	padding: 7px;
+	border: none;
+	font-size: 12px;
+    font-weight: bold;
+    color: var(--background);
+}
+.testing img{
+	width: 700px;
+}
+
+.button:hover {
+	background-color: var(--btn-hover);
+}
+
+.lineCircle::after{
+	content: "";
+	border-bottom: 4px solid var(--btn-background);
+	padding-right: 100px;
+}
+
+
+.lineCircle2::after{
+	position: relative;
+	top:-50px;
+	content: "";
+	border-bottom: 4px solid var(--btn-background);
+	padding-right: 100px;
+}
+.city{
+	color: var(--btn-background) !important;
+}
+select::-webkit-input-placeholder{
+	color: var(--btn-background);
+}
+
+@media screen and (max-width:1000px) {
+	.lineCircle2::after{
+		content: " ";
+		display: none;
+	}
+
+	.lineCircle::after{
+		content: "";
+	
+		display: none;
+
+	}
+	
+}
+.option{
+	outline: none;
+	background: transparent;
+	border: none;
+}
+.option:focus{
+	box-shadow: none !important;
+}
+

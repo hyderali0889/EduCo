@@ -1,0 +1,31 @@
+:root{
+    --background: #eaeaea;
+    --text-color:#9b9c9d;
+    --iandc-background: #f8f9fb;
+    --btn-background: #707070;
+    --btn-hover: #000;
+    --nav-link: #c4c4c4;
+  }
+
+
+
+  .librariesMain{
+      background-color: var(--nav-link);
+      border-radius: 14px;
+      display: flex;
+      flex-direction: row;
+      overflow-x: auto;
+  }
+
+.librariesMain::-webkit-scrollbar{
+    display: none;
+}
+
+  .buttonWrapper{
+      border-radius: 14px;
+  }
+
+  .buttonMain{
+      position: relative;
+      top:20px;
+  }

@@ -1,0 +1,14 @@
+:root {
+	--background: #eaeaea;
+	--text-color: #9b9c9d;
+	--iandc-background: #f8f9fb;
+	--btn-background: #707070;
+	--btn-hover: #000;
+	--nav-link: #c4c4c4;
+}
+
+
+.setCard{
+    display: flex;
+    flex-direction: row;
+}

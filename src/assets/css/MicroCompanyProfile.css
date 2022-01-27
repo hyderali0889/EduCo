@@ -1,0 +1,56 @@
+:root {
+	--background: #eaeaea;
+	--text-color: #9b9c9d;
+	--iandc-background: #f8f9fb;
+	--btn-background: #707070;
+	--btn-hover: #000;
+	--nav-link: #c4c4c4;
+}
+
+.MicroMain {
+	background-color: var(--nav-link);
+    box-shadow: 0px 2px 10px grey;
+	border-radius: 14px;
+}
+
+.ColImg {
+	background-color: var(--btn-background);
+    border-radius: 14px;
+    display: flex;
+    justify-content: center;
+}
+
+.InstrutorSec{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.CrossedRate{
+    text-decoration: line-through;
+}
+
+.RateMain{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.RateBtn{
+    display: flex;
+    justify-content: flex-end;
+}
+
+
+@media  screen and (max-width:720px) {
+
+    .RateMain{
+        display: flex;
+        justify-content: center;
+    }
+    
+    .RateBtn{
+        display: flex;
+        justify-content: center;
+    }
+    
+}
