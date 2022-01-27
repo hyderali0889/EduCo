@@ -1,0 +1,40 @@
+{
+  "files": {
+    "main.css": "/EduCo/static/css/main.39371469.css",
+    "main.js": "/EduCo/static/js/main.f6108eb1.js",
+    "static/media/img1.jpg": "/EduCo/static/media/img1.9a28d149c7b560b19d56.jpg",
+    "static/media/img2.jpg": "/EduCo/static/media/img2.e7345ef576053fdf115c.jpg",
+    "static/media/faisalabad.png": "/EduCo/static/media/faisalabad.7946a19747fa349ee2bb.png",
+    "static/media/buisness.png": "/EduCo/static/media/buisness.123ca05107389dcd2a23.png",
+    "static/media/marketing.png": "/EduCo/static/media/marketing.e7209710e1e72f838520.png",
+    "static/media/networking.png": "/EduCo/static/media/networking.ff33b727e352503319b9.png",
+    "static/media/designing.png": "/EduCo/static/media/designing.cfdab573c1469d8d3d1f.png",
+    "static/media/development.png": "/EduCo/static/media/development.55131acadea2ff038d24.png",
+    "static/media/photography.png": "/EduCo/static/media/photography.b7682af2e710791bd4f5.png",
+    "static/media/Image 25.png": "/EduCo/static/media/Image 25.03fd2db0237fea91e249.png",
+    "static/media/CardFaisalabad.png": "/EduCo/static/media/CardFaisalabad.897de492dfb865df6021.png",
+    "static/media/cart2.png": "/EduCo/static/media/cart2.8c6498c24e72d25e58aa.png",
+    "static/media/cart3.png": "/EduCo/static/media/cart3.cbf492b02478dba93a05.png",
+    "static/media/Image 27.png": "/EduCo/static/media/Image 27.9dd01b2d1b30c46452bc.png",
+    "static/media/cart-1.png": "/EduCo/static/media/cart-1.02973a221604a3a3093a.png",
+    "static/media/Image 24.png": "/EduCo/static/media/Image 24.1d658b244f5fba56e4c3.png",
+    "static/media/multan.png": "/EduCo/static/media/multan.1d658b244f5fba56e4c3.png",
+    "static/media/cart4.png": "/EduCo/static/media/cart4.ec98fd5493e940a68913.png",
+    "static/media/Theend.png": "/EduCo/static/media/Theend.c992a66d8efa06ad80a6.png",
+    "static/media/cart5.png": "/EduCo/static/media/cart5.7e3e3ae47304ac9371d1.png",
+    "static/media/Image 20.png": "/EduCo/static/media/Image 20.d79ec4b887fe60f1c5bc.png",
+    "static/media/islamabad.png": "/EduCo/static/media/islamabad.d79ec4b887fe60f1c5bc.png",
+    "static/media/revicons.eot": "/EduCo/static/media/revicons.a77de540a38981833f9e.eot",
+    "static/media/revicons.ttf": "/EduCo/static/media/revicons.57fd05d4ae650374c8de.ttf",
+    "static/media/Image 23.png": "/EduCo/static/media/Image 23.2683a127d93f283038fc.png",
+    "static/media/lahore.png": "/EduCo/static/media/lahore.2683a127d93f283038fc.png",
+    "static/media/revicons.woff": "/EduCo/static/media/revicons.e8746a624ed098489406.woff",
+    "index.html": "/EduCo/index.html",
+    "main.39371469.css.map": "/EduCo/static/css/main.39371469.css.map",
+    "main.f6108eb1.js.map": "/EduCo/static/js/main.f6108eb1.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.39371469.css",
+    "static/js/main.f6108eb1.js"
+  ]
+}
