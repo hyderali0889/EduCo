@@ -12,9 +12,9 @@ function CompanyCard() {
 				</div>
 				<div className="picOnCard"> <RB.Image src={Img} alt="not Found" className="p-1" width="100%" /> </div>
 				<RB.Card.Body className="text-center">
-					<RB.Card.Title className="fw-bold textColor"> Company Name </RB.Card.Title>
-					<RB.Card.Text className='textColor'>429 Courses</RB.Card.Text>
-					<Link to='/Company-Profile'><button className="button"> View Details</button></Link>
+					<RB.Card.Title  className="fw-bold textColor"> Company Name </RB.Card.Title>
+					<RB.Card.Text  className='textColor'>429 Courses</RB.Card.Text>
+					<Link  to='/Company-Profile'><button className="button"> View Details</button></Link>
 				</RB.Card.Body>
 			</RB.Card>
 		</div>
